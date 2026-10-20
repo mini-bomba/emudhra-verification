@@ -1,0 +1,14 @@
+name: verify
+
+on: push
+
+jobs:
+  verify:
+    name: run verification
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Verify
+        run: cargo run
