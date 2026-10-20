@@ -1,0 +1,8 @@
+[package]
+name = "emudhra-verification"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+p384 = "0.14.0"
+x509-cert = "0.3.0"
